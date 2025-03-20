@@ -3,65 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harale Madhavi - Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
 
-    <header>
-        <div class="profile">
-            <img src="profile.jpg" alt="Harale Madhavi">
-            <h1>Harale Madhavi</h1>
-            <p>Electronics & Telecommunication Engineer</p>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h2 class="logo">Portfolio</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="profile.png" alt="Profile Picture" class="profile-pic">
+        <h1>Hello, I'm <span>Your Name</span></h1>
+        <p>A passionate Software Developer</p>
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-alt">Contact Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A dedicated and innovative <strong>Software Developer</strong> with expertise in designing and implementing software solutions. Proficient in full-stack development, AI/ML, and web technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Smart Transmission Line Fault Detection</h3>
+            <p>Developed an AI-powered system for real-time fault detection in power transmission lines.</p>
         </div>
-    </header>
+        <div class="project">
+            <h3>AI Resume Analyzer</h3>
+            <p>Built a Streamlit-based resume analyzer that evaluates resumes using NLP techniques.</p>
+        </div>
+    </section>
 
-    <main>
-        <section class="cards">
-            <div class="card">
-                <h2>About Me</h2>
-                <p>Enthusiastic engineer with a passion for embedded systems, FPGA, and AI-powered projects.</p>
-            </div>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, C, C++</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>AI/ML (TensorFlow, Scikit-Learn)</li>
+            <li>Database Management (MySQL, Firebase)</li>
+            <li>Full-Stack Development (Flask, React)</li>
+        </ul>
+    </section>
 
-            <div class="card">
-                <h2>Experience</h2>
-                <p>Intern at Boost Electronics - Worked on embedded systems & AI.</p>
-            </div>
-
-            <div class="card">
-                <h2>Education</h2>
-                <p>Sandip Foundation | Electronics & Telecommunication Engineering</p>
-            </div>
-
-            <div class="card">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Embedded Systems</li>
-                    <li>FPGA & Image Processing</li>
-                    <li>AI & ML</li>
-                    <li>Python, C++, MATLAB</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <h2>Projects</h2>
-                <ul>
-                    <li>Smart Transmission Line Fault Detection System</li>
-                    <li>AI Resume Analyzer</li>
-                    <li>Bi-Directional Visitor Counter</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <h2>Languages Known</h2>
-                <p>English, Hindi, Marathi</p>
-            </div>
-        </section>
-    </main>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:madhaviharale@gmail.com">madhaviharale@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/HaraleMadhavi" target="_blank">github.com/HaraleMadhavi</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn Profile</a></p>
+    </section>
 
 </body>
 </html>
+
 
 
 
